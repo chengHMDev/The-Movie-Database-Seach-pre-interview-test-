@@ -1,0 +1,19 @@
+CREATE DATABASE movieDB;
+CREATE TABLE Movie(
+	movieId 	INT(12) NOT NULL AUTO_INCREMENT,
+	title 		VARCHAR(500) NOT NULL,
+	dateAired		DATE,
+	movlanguage		VARCHAR(50),
+	ratings		INT(2),
+	description	VARCHAR(2000),
+	posterImg	BLOB,
+	posterURL	VARCHAR(1000),
+	PRIMARY KEY (movieId)
+);
+CREATE TABLE History(
+	historyId		INT(12) NOT NULL AUTO_INCREMENT,
+	timesVisited	INT(6),
+	movieId			INT(12) NOT NULL,
+	PRIMARY KEY (historyId),
+	FOREIGN KEY (movieId) REFERENCES Movie(movieId)
+);
