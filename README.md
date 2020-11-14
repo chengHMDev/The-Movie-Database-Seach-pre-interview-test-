@@ -6,7 +6,7 @@ Requirement to run the project
 2. Google Chrome browser 
 
 Steps to setup the project
-1. <b>Copy</b> the Zip file named <b>"TMDB-DB"</b> and <b>unzip</b> it at the folder to <b>C:\xampp\htdocs</b>.
+1. <b>Copy</b> the Zip file named <b>"TMDB-DB.zip"</b> and <b>unzip</b> it at the folder to <b>C:\xampp\htdocs</b>.
 2. <b>launch XMAMPP control panel</b> then <b>start Apache and MYSQL server</b>.
 3. <b>Click</b> on the <b>Admin button</b> for the MYSQL module.(phpmyadmin page will show up)
 4. On the phpmyadmin page <b>click</b> on the <b>"new"</b> tab and <b>enter "moviedb"</b> on the Databse name textfield then <b>click</b> the <b>create button</b>.
