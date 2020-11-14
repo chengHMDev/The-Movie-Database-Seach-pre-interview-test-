@@ -11,7 +11,7 @@ Steps to setup the project
 3. <b>Click</b> on the <b>Admin button</b> for the MYSQL module.(phpmyadmin page will show up)
 4. On the phpmyadmin page <b>click</b> on the <b>"new"</b> tab and <b>enter "moviedb"</b> on the Databse name textfield then <b>click</b> the <b>create button</b>.
 5. <b>Refresh</b> the page and <b>click</b> on the <b>"moviedb"</b> database tab.
-6. <b>Click</b> on the <b>import</b> tab on the top of the page then <b>choose "moviedb.sql"</b> and <b>click</b> the <b>go</b> on the bottom right of the page.
+6. <b>Click</b> on the <b>import</b> tab on the top of the page then <b>choose "moviedb.sql"</b> and <b>click</b> the <b>go button</b> on the bottom right of the page.
 7. <b>Open</b> the <b>browser</b> and navigate to <b>"http://localhost/TMDB-DB/index.php"</b>.
 
 User Instruction
